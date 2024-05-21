@@ -221,3 +221,106 @@ section{
     }
 
 }
+
+/* PARTS AREA */
+.product {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-add-to-cart {
+  margin-left: 80%;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* MECHANIC AREA*/
+.mechanic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.gallery {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+.item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* SCHEDULE FORM*/
+.container {
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 15px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--main-color);
+}
+
+/* MAIN */
+main {
+  text-align: center;
+  padding: 20px;
+}
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
