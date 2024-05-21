@@ -22,11 +22,34 @@
           <a href="parts.html">Parts</a>
           <a href="mechanic.html">Mechanic</a>
           <a href="schedule.html" class="active">Schedule</a>
-          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
           
         </nav>
     </header>
-
+    <section class="sched">
+      <div class="container">
+        <h2>Home Service Schedule Form</h2>
+        <form id="serviceForm">
+          <label for="serviceName">Service Name:</label>
+          <input type="text" id="serviceName" name="serviceName" required><br><br>
+          
+          <label for="serviceDate">Service Date:</label>
+          <input type="date" id="serviceDate" name="serviceDate" required><br><br>
+          
+          <label for="serviceTime">Service Time:</label>
+          <input type="time" id="serviceTime" name="serviceTime" required><br><br>
+          
+          <label for="mechanicSelect">Choose a Mechanic:</label>
+          <select id="mechanicSelect" name="mechanicSelect">
+            <option value="mechanic1">Mechanic 1</option>
+            <option value="mechanic2">Mechanic 2</option>
+            <option value="mechanic3">Mechanic 3</option>
+          </select><br><br>
+          
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+  </section>
     <script src="script.js"></script>
 </body>
 </html>
