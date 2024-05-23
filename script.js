@@ -2,10 +2,10 @@
 const products = [
   { name: 'Spark Plugs', image: 'Spark-plugs.jpg', price: 10.99 },
   { name: 'NLK Pipe', image: 'NLK Pipe.jpg', price: 19.99 },
-  { name: 'Rims ', image: 'Rims.jpg', price: 15.99 }
-  { name: 'Flat Seat ', image: 'Flat seat.jpg', price: 15.99 }
-  { name: 'Rear Shock ', image: 'rear shock.jpg', price: 15.99 }
-  { name: 'Drive Face ', image: 'Drive face.jpg', price: 15.99 }
+  { name: 'Rims ', image: 'Rims.jpg', price: 15.99 },
+  { name: 'Flat Seat ', image: 'Flat seat.jpg', price: 15.99 },
+  { name: 'Rear Shock ', image: 'rear shock.jpg', price: 15.99 },
+  { name: 'Drive Face ', image: 'Drive face.jpg', price: 15.99 },
   { name: 'JRP shock ', image: 'JRp Shock.jpg', price: 15.99 }
 ];
 
