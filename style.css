@@ -262,7 +262,7 @@ section{
 .gallery {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  /* padding: 10px; */
 }
 .item {
   border: 1px solid #ccc;
@@ -272,9 +272,10 @@ section{
   text-align: center;
 }
 .item img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /* SCHEDULE FORM*/
@@ -304,7 +305,7 @@ button:hover {
   background-color: var(--main-color);
 }
 
-/* MAIN */
+/* ABOUT */
 main {
   text-align: center;
   padding: 20px;
@@ -312,15 +313,18 @@ main {
 section {
   margin-bottom: 20px;
 }
+section h1{
+  font-size: 20px;
+}
+section p{
+  font-size: 15px;
+  font-weight: 200;
+}
 
 ul {
   list-style-type: none;
   padding: 0;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
+  margin-top: 1%;
+  font-size: 15px;
+  font-weight: 300;
 }
