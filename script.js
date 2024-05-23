@@ -1,8 +1,12 @@
 // script.js
 const products = [
-  { name: 'Product 1', image: 'https://via.placeholder.com/100', price: 10.99 },
-  { name: 'Product 2', image: 'https://via.placeholder.com/100', price: 19.99 },
-  { name: 'Product 3', image: 'https://via.placeholder.com/100', price: 15.99 }
+  { name: 'Spark Plugs', image: 'photo_2024-05-18_17-38-33 (2)', price: 10.99 },
+  { name: 'NLK Pipe', image: 'photo_2024-05-18_17-38-33', price: 19.99 },
+  { name: 'Rims ', image: 'photo_2024-05-18_17-38-34', price: 15.99 }
+  { name: 'Flat Seat ', image: 'photo_2024-05-18_17-38-37', price: 15.99 }
+  { name: 'Rear Shock ', image: 'photo_2024-05-18_17-38-35 (2)', price: 15.99 }
+  { name: 'Drive Face ', image: 'photo_2024-05-18_17-38-35', price: 15.99 }
+  { name: 'JRP shock ', image: 'photo_2024-05-18_17-38-38', price: 15.99 }
 ];
 
 const productList = document.getElementById('product-list');
