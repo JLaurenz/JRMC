@@ -1,12 +1,12 @@
 // script.js
 const products = [
-  { name: 'Spark Plugs', image: 'photo_2024-05-18_17-38-33 (2)', price: 10.99 },
-  { name: 'NLK Pipe', image: 'photo_2024-05-18_17-38-33', price: 19.99 },
-  { name: 'Rims ', image: 'photo_2024-05-18_17-38-34', price: 15.99 }
-  { name: 'Flat Seat ', image: 'photo_2024-05-18_17-38-37', price: 15.99 }
-  { name: 'Rear Shock ', image: 'photo_2024-05-18_17-38-35 (2)', price: 15.99 }
-  { name: 'Drive Face ', image: 'photo_2024-05-18_17-38-35', price: 15.99 }
-  { name: 'JRP shock ', image: 'photo_2024-05-18_17-38-38', price: 15.99 }
+  { name: 'Spark Plugs', image: 'Spark-plugs.jpg', price: 10.99 },
+  { name: 'NLK Pipe', image: 'NLK Pipe.jpg', price: 19.99 },
+  { name: 'Rims ', image: 'Rims.jpg', price: 15.99 }
+  { name: 'Flat Seat ', image: 'Flat seat.jpg', price: 15.99 }
+  { name: 'Rear Shock ', image: 'rear shock.jpg', price: 15.99 }
+  { name: 'Drive Face ', image: 'Drive face.jpg', price: 15.99 }
+  { name: 'JRP shock ', image: 'JRp Shock.jpg', price: 15.99 }
 ];
 
 const productList = document.getElementById('product-list');
